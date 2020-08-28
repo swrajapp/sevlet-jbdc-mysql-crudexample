@@ -13,12 +13,12 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.bookstore.dao.BookDAO;
 
-import net.javaguides.usermanagement.model.User;
+import com.bookmanagement.model.Book;
 
 
 
 @WebServlet("/bookstore")
-public class UserServlet extends HttpServlet {
+public class bookServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private BookDAO bookDAO;
 	
